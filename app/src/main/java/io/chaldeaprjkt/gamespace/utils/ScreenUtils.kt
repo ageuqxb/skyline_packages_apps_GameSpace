@@ -1,6 +1,5 @@
 /*
  * Copyright (C) 2021 Chaldeaprjkt
- *               2022 crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,12 +25,8 @@ import android.os.Handler
 import android.os.IBinder
 import android.os.Looper
 import android.os.PowerManager
-import android.os.RemoteException
-import android.os.ServiceManager
 import android.os.UserHandle
-import android.util.Log
 import android.view.WindowManager
-import com.android.internal.statusbar.IStatusBarService
 import com.android.internal.util.ScreenshotHelper
 import com.android.systemui.screenrecord.IRemoteRecording
 import javax.inject.Inject
